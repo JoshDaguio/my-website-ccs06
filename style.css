@@ -1,0 +1,250 @@
+body {
+  background: #1E1E24;
+}
+
+.rectangleOrange {
+  position: absolute;
+  width: 200px;
+  height: 800px;
+  left: 0px;
+  top: 0px;
+
+  background: #694514;
+}
+
+.curvedBox {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  left: 58px;
+  top: 50px;
+
+  background: #D0841D;
+  border-radius: 0px 0px 150px 0px;
+}
+
+.imageBox {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  left: 78px;
+  top: 70px;
+
+  background: url(https://media.discordapp.net/attachments/1016577801656221796/1079353977822531685/d.png), #FF9505;
+  border-radius: 0px 0px 150px 0px;
+}
+
+.dreamer {
+  position: absolute;
+  width: 593px;
+  height: 420px;
+  left: 410px;
+  top: 30px;
+
+  font-family: 'Alfa Slab One';
+  font-size: 60px;
+  line-height: 110px;
+  color: #FF9505;
+  text-shadow: -10px 5px 4px #694514;
+}
+
+.name {
+  position: absolute;
+  width: 564px;
+  height: 102px;
+  left: 470px;
+  top: 200px;
+
+  font-family: 'Abel';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 51px;
+
+  color: #EEF5DB;
+}
+
+.exploreMe {
+  position: absolute;
+  width: 462px;
+  height: 29px;
+  left: 550px;
+  top: 350px;
+
+  font-family: 'Abel';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29 px;
+
+  color: #EEF5DB;
+}
+
+.learnMore {
+  position: absolute;
+  left: 800px;
+  top: 450px;
+  text-decoration: none;
+  font-family: 'Abel';
+  font-size: 20px;
+  line-height: 25px;
+  display: inline-block;
+  padding: 12px 23px;
+  border-radius: 100px;
+  align-items: center;
+  text-align: center;
+  background: #694514;
+
+  color: #FFFFFF;
+}
+
+.learnMore:hover {
+  background: #FFFFFF;
+  text-decoration: underline;
+  color: #694514;
+  transition: 0.5s;
+}
+
+.vertLine {
+  position: absolute;
+  width: 400px;
+  height: 0px;
+  left: 900px;
+  top: 310px;
+
+  border: 3px solid #694514;
+  transform: rotate(-90deg);
+}
+
+.horLine {
+  position: absolute;
+  width: 433.52px;
+  height: 0px;
+  left: 466px;
+  top: 710px;
+  border: 3px solid #694514;
+}
+
+.quote {
+  position: absolute;
+  left: 400px;
+  top: 600px;
+  font-family: 'Anton';
+  font-size: 13px;
+  line-height: 23px;
+  text-align: center;
+  color: #EEF5DB;
+}
+
+.quoteFrom {
+  position: absolute;
+
+  left: 617px;
+  top: 660px;
+
+  font-family: 'Anton';
+  font-size: 11px;
+  text-align: center;
+
+  color: #EEF5DB;
+}
+
+.navMain {
+  position: absolute;
+  font-family: 'Abel';
+  font-size: 23px;
+  color: #EEF5DB;
+  text-decoration: none;
+  padding-bottom: 0.01rem;
+}
+
+.nav {
+  position: absolute;
+  font-family: 'Abel';
+  font-size: 23px;
+  color: #EEF5DB;
+  text-decoration: none;
+  padding-bottom: 0.01rem;
+}
+
+.nav::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #FF9505;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+  transform: scaleX(0);
+  
+}
+
+.nav:hover::after {
+  transform: scaleX(1);
+  color: #FF9505;
+}
+
+.nav a{
+    color: #EEF5DB;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #EEF5DB;
+    text-decoration: none;
+}
+
+
+.iconsIG {
+  position: absolute;
+  left: 496px;
+  top: 725px;
+}
+
+.iconsFB {
+  position: absolute;
+  left: 576px;
+  top: 725px;
+}
+
+.iconsGmail {
+  position: absolute;
+  left: 656px;
+  top: 725px;
+}
+
+.iconsGH {
+  position: absolute;
+  left: 736px;
+  top: 725px;
+}
+
+.iconsTwi {
+  position: absolute;
+  left: 816px;
+  top: 725px;
+}
+
+.iconsFB:hover {
+  box-shadow: 0 0 0px 1.5px #694514;
+  border-radius: 5px;
+}
+
+.iconsIG:hover {
+  box-shadow: 0 0 0px 1.5px #694514;
+  border-radius: 5px;
+}
+
+.iconsGmail:hover {
+  box-shadow: 0 0 0px 1.5px #694514;
+  border-radius: 5px;
+}
+
+.iconsGH:hover {
+  box-shadow: 0 0 0px 1.5px #694514;
+  border-radius: 5px;
+}
+
+.iconsTwi:hover {
+  box-shadow: 0 0 0px 1.5px #694514;
+  border-radius: 5px;
+}
